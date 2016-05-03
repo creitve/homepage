@@ -2,15 +2,15 @@
 
 Homepage with pretty minimal design which based on [Pixyll's theme](http://pixyll.com) for Jekyll.
 
-#### Getting Started
+#### Quick start
 
-If you're completely new to Jekyll, I recommend to read the documentation at <http://jekyllrb.com>.
+If you're new to Jekyll, please read the [documentation](http://jekyllrb.com).
 
 ```
 $ git clone https://github.com/gongled/homepage.git
 $ cd homepage
-$ gem install bundler
-$ bundle install
+$ [sudo] gem install bundler
+$ [sudo] bundle install
 ```
 
 #### Usage

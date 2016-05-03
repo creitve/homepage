@@ -5,9 +5,9 @@ date:       2016-05-02 01:00:00
 excerpt_separator: <!--more-->
 ---
 
-Usually in Ubuntu we might add the Nginx repository and install it very easy. But if we want some extra modules that can't be compiled as dynamic modules (such as Google's Pagespeed), we still need to recompile Nginx with those modules statically.
+Usually in Ubuntu we might install the default Nginx very easy. But if we want some extra modules that can't be compiled as dynamic modules (such as Google's Pagespeed), we still need to recompile Nginx with those modules statically.
 
-1. Install the PPA repository `ppa:nginx/stable` of stable Nginx.
+1. Install the PPA repository `ppa:nginx/stable`.
 
     ```
     sudo add-apt-repository -y ppa:nginx/stable
