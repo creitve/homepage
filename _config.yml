@@ -1,0 +1,113 @@
+###############################################################################
+# About
+
+title:        "Gleb Goncharov"
+email:        inbox@gongled.ru
+author:       Gleb Goncharov
+description:  "Operations engineer's blog."
+baseurl:      ""
+url:          "https://gongled.ru"
+
+###############################################################################
+# General settings
+
+date_format:  "%b %-d, %Y"
+highlighter:  rouge
+
+markdown:     redcarpet
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data']
+
+permalink:    pretty
+paginate:     10
+sass:
+  compressed: true
+
+###############################################################################
+# Analytics
+
+google_verification:
+google_analytics: UA-36910558-1
+google_tag_manager:
+
+bing_verification:
+
+###############################################################################
+# Additional behaviour
+
+animated:               false
+show_related_posts:     false
+show_post_footers:      false
+show_social_icons:      false
+extended_fonts:         true
+enable_anchorjs:        true
+
+###############################################################################
+# Social networks
+
+disqus_shortname:
+facebook_comments:
+facebook_appid:
+facebook_comments_number: 10
+
+github_username:      gongled
+bitbucket_username:   gongled
+stackoverflow_id:     gongled
+twitter_username:     gongled
+skype_username:       gongled
+steam_nickname:       
+google_plus_id:       gongled
+linkedin_username:    gongled
+angellist_username:
+medium_id:
+bitcoin_url:
+paypal_url:           https://paypal.me/gongled
+flattr_button:
+
+###############################################################################
+# Sharing icons
+
+show_sharing_icons:   false
+share_facebook:       false
+share_twitter:        false
+share_googleplus:     false
+share_linkedin:       false
+share_digg:           false
+share_tumblr:         false
+share_reddit:         false
+share_stumbleupon:    false
+share_hackernews:     false
+
+###############################################################################
+
+text:
+  pagination:
+    newer: 'next'
+    older: 'previous'
+  share_buttons:
+    text:           'Share this post!'
+    facebook:       'Share on Facebook'
+    twitter:        'Share on Twitter'
+    googleplus:     'Share on Google+'
+    linkedin:       'Share on LinkedIn'
+    digg:           'Share on Digg'
+    tumblr:         'Share on Tumblr'
+    reddit:         'Share on Reddit'
+    stumbleupon:    'Share on StumbleUpon'
+    hackernews:     'Share on Hacker News'
+  post:
+    updated:        'Updated'
+    minute_read:    'minute read'
+    related_posts:  'Related Posts'
+  index:
+    coming_soon:    'Coming soon...'
+  og_locale:        'en_US'
+
+###############################################################################
+# Installed gems
+
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+exclude: [vendor]
