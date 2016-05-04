@@ -62,4 +62,4 @@ Usually in Ubuntu we might install the default Nginx very easy. But if we want s
     sudo dpkg-buildpackage -b
     ```
 
-Be patient, it takes from 5 to 15 minutes. If you did everything correctly you will get a bunch of ready to installed `.deb` packages.
+Be patient, it takes from 5 to 15 minutes. If you do everything correctly, you will see a bunch of `.deb` packages.
