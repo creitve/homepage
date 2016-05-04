@@ -2,8 +2,6 @@
 
 Homepage with pretty minimal design which based on [Pixyll's theme](http://pixyll.com) for Jekyll.
 
-#### Status
-
 [![Build Status](https://travis-ci.org/gongled/homepage.svg?branch=master)](https://travis-ci.org/gongled/homepage)
 
 #### Quick start
